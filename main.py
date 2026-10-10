@@ -1,95 +1,189 @@
 # 1. Davlatlar ro'yxati
-davlatlar = ["O'zbekiston", "Turkiya", "AQSh", "Germaniya", "Yaponiya"]
+#davlatlar = ["O'zbekiston", "Turkiya", "AQSh", "Germaniya", "Yaponiya"]
 
-print("Davlatlar:", davlatlar)
+#print("Davlatlar:", davlatlar)
 
 # 2. Ro'yxat uzunligi
-print("Ro'yxat uzunligi:", len(davlatlar))
+#print("Ro'yxat uzunligi:", len(davlatlar))
 
 # 3. Tartiblangan holda
-print("Alifbo tartibida:", sorted(davlatlar))
+#print("Alifbo tartibida:", sorted(davlatlar))
 
 # 4. Teskari tartibda
-print("Teskari alifbo:", sorted(davlatlar, reverse=True))
+#print("Teskari alifbo:", sorted(davlatlar, reverse=True))
 
 # 5. Asl ro'yxatni qayta chiqarish
-print("Asl ro'yxat:", davlatlar)
+#print("Asl ro'yxat:", davlatlar)
 
 # 6. reverse() yordamida
-davlatlar.reverse()
-print("reverse() dan keyin:", davlatlar)
+#davlatlar.reverse()
+#print("reverse() dan keyin:", davlatlar)
 
 # Asl holatiga qaytarish
-davlatlar.reverse()
+#davlatlar.reverse()
 
 # 7. sort() yordamida avval alifbo, keyin teskari
-davlatlar.sort()
-print("sort() alifbo:", davlatlar)
+#davlatlar.sort()
+#print("sort() alifbo:", davlatlar)
 
-davlatlar.sort(reverse=True)
-print("sort() teskari:", davlatlar)
+#davlatlar.sort(reverse=True)
+#print("sort() teskari:", davlatlar)
 
 
 # 8. 120 dan 1200 gacha bo'lgan juft sonlar
-juft_sonlar = list(range(120, 1201, 2))
-print("Juft sonlar:", juft_sonlar)
+#juft_sonlar = list(range(120, 1201, 2))
+#print("Juft sonlar:", juft_sonlar)
 
 
 # 9. Ro'yxatdagi sonlar yig'indisi
-print("Yig'indi:", sum(juft_sonlar))
+#print("Yig'indi:", sum(juft_sonlar))
 
 
 # 10. Eng katta va eng kichik son orasidagi ayirma
-ayirma = max(juft_sonlar) - min(juft_sonlar)
-print("Eng katta va eng kichik son ayirmasi:", ayirma)
+#ayirma = max(juft_sonlar) - min(juft_sonlar)
+#print("Eng katta va eng kichik son ayirmasi:", ayirma)
 
 
 # 11. Ro'yxatdagi elementlar soni
-print("Elementlar soni:", len(juft_sonlar))
+#print("Elementlar soni:", len(juft_sonlar))
 
 
 # 12. Boshidan, o'rtasidan va oxiridan 20 ta qiymat
-print("Boshidan 20 ta:", juft_sonlar[:20])
-print("O'rtasidan 20 ta:", juft_sonlar[len(juft_sonlar)//2-10:len(juft_sonlar)//2+10])
-print("Oxiridan 20 ta:", juft_sonlar[-20:])
+#print("Boshidan 20 ta:", juft_sonlar[:20])
+#print("O'rtasidan 20 ta:", juft_sonlar[len(juft_sonlar)//2-10:len(juft_sonlar)//2+10])
+#print("Oxiridan 20 ta:", juft_sonlar[-20:])
 
 
 # 13. taomlar ro'yxati
-taomlar = ["osh", "manti", "somsa", "shashlik", "lag'mon"]
+#taomlar = ["osh", "manti", "somsa", "shashlik", "lag'mon"]
 
-print("Taomlar:", taomlar)
+#print("Taomlar:", taomlar)
 
 
 # 14. nonushta ro'yxatiga taomlar va nusxa olish
-nonushta = taomlar.copy()
+#nonushta = taomlar.copy()
 
 # 15. Faqat nonushtaga yeyiladigan taomlarni qoldirish
-nonushta = ["non", "tuxum", "qaymoq"]
+#nonushta = ["non", "tuxum", "qaymoq"]
 
 # Qo'shimcha 2 ta taom
-nonushta.extend(["asal", "pishloq"])
+#nonushta.extend(["asal", "pishloq"])
 
-print("Nonushta:", nonushta)
+#print("Nonushta:", nonushta)
 
 
 # 16. Ikkala ro'yxatni konsolga chiqarish
-print("Taomlar:", taomlar)
-print("Nonushta:", nonushta)
+#print("Taomlar:", taomlar)
+#print("Nonushta:", nonushta)
 
 
 # 17. nonushta ro'yxatini o'zgarmas ro'yxatga (tuple) aylantirish
-nonushta = tuple(nonushta)
+#nonushta = tuple(nonushta)
 
-print("Tuple ko'rinishida:", nonushta)
+#print("Tuple ko'rinishida:", nonushta)
 
 
 # 18. nonushta[0] ga yangi qiymat berish
 # Tuple ichidagi qiymatni to'g'ridan-to'g'ri o'zgartirib bo'lmaydi.
 # Shuning uchun yangi tuple yaratamiz.
 
-nonushta = ("qaymoq va non",) + nonushta[1:]
+#nonushta = ("qaymoq va non",) + nonushta[1:]
 
-print("Yangi nonushta:", nonushta)
+#print("Yangi nonushta:", nonushta)
+
+
+
+
+
+#a=24
+#b=3
+#if a>b:
+ #   print(a)
+#else :
+#    print(b)
+
+
+
+#a=4
+#b=6
+#if a>b:
+ #   print(a)
+#else :
+ #   print(b)
+
+
+
+
+#ismlar = ["afruz" , "abu" , "no'mon"]
+#print(ismlar)
+
+
+
+
+#ismlar = ["afruz" , "abu" , "no'mon"]
+#for i in ismlar:
+#    print(i)
+
+
+
+#ismlar = ["afruz" , "abu" , "no'mon"]
+#for i in ismlar:
+ #   print("salom")
+
+
+
+
+#ismlar = ["afruz" , "abu" , "no'mon" , "aslbek" , "asad" , "otabek" , "ali" , "vali" , "atahan"]
+#print(ismlar)
+#for i in ismlar:
+#     print(i,"oshga kel")
+
+
+
+#a = 1000
+#for i in range(1,a):
+ #   if i % 3 == 0:
+ #       print(i)
+
+
+
+
+
+#car = [ 'toyota', 'mazda', 'hyundai', 'gm', 'kia',]
+#for car in car:
+   # if car == 'gm':
+       # print(car.upper())
+   # else:
+    #    print(car.title())
+
+
+#car = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+#for car in car:
+ #   if car != 'gm':
+ #       print(car.title())
+ #   else:
+ #       print(car.upper())
+
+
+
+#login = input("Login ismingizni kiriting: ")
+#if login.lower() == 'admin':
+ #   print("Xush kelibsiz, Admin.")
+#else:
+ #   print(f"Xush kelibsiz, {login}!"
+
+
+
+
+
+
+
+
+for i in range(1,100):
+    if i % 3==0 and i % 5==0:
+       print(i)
+else:
+    print("to'g'ri kelmaydi")
 
 
 
